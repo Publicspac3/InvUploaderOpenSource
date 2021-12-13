@@ -28,7 +28,7 @@ void InvUploader::onLoad()
 	cvarManager->executeCommand("pmrlr_load_toast"); 
 	cvarManager->log("The PMRLR Inventory Uploader plugin has loaded successfully!");
 	
-	//Checks if the BetterInventoryExport plugin is installed, downloads it if not.
+	//Checks if the BetterInventoryExport plugin is installed, downloads it if not. The reason why we use this plugin is because it allows you to also look at special editions of items.
 	if(!std::filesystem::exists(gameWrapper->GetBakkesModPath() / "plugins" / "BetterInventoryExport.dll")) {
 		cvarManager->log("Required plugin not found! Installing plugin...");
 		cvarManager->executeCommand("bpm_install 155");
