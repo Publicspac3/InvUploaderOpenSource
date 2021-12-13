@@ -106,7 +106,7 @@ void InvUploader::InvUpload()
 	char text[] = R"({"message": "inventory_updated", "content": ")";
 	char text2[] = R"(","sha": ""})";
 	
-	//Because C++ doesn't have a good way to parse Json, we do this sandwhiched sort of solution where we take half of the request in "text", insert "encoded" as our content, and add "text2" to the end. 
+	//Because C++ doesn't have a good way to parse Json, we do this sandwiched sort of solution where we take half of the request in "text", insert "encoded" as our content, and add "text2" to the end. 
 	const auto requestbody = text + encoded + text2;
 	
 	CurlRequest req;
