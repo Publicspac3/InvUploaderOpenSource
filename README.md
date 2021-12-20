@@ -6,4 +6,4 @@ Here is how I suggest using it:
 2. Download Martinn's Plugin template [Here](https://github.com/Martinii89/BakkesmodPluginTemplate).
 3. Put these files' contents into your plugin, and edit as you need.
 
-Thanks to [eyezayugh](github.com/eyezayugh-rl) for helping! 
+Thanks to [eyezayugh](https://github.com/eyezayugh-rl) for helping! 
